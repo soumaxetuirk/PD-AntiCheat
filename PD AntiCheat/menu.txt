@@ -1,0 +1,126 @@
+{
+	"menu_id" : "pdcmenu",
+	"parent_menu_id" : "blt_options",
+	"title" : "pd_anticheat_title",
+	"description" : "pd_anticheat_desc",
+	"back_callback": "pd_anticheat_save",
+	"items" : [
+		{
+			"type" : "toggle",
+			"id" : "pd_anticheat_skilltest",
+			"title" : "pda_skilltest_title",
+			"description" : "pda_skilltest_desc",
+			"value" : "skilltest",
+			"callback" : "pda_skilltest_callback",
+		},
+		{
+			"type" : "toggle",
+			"id" : "pd_anticheat_perktest",
+			"title" : "pda_perktest_title",
+			"description" : "pda_perktest_desc",
+			"value" : "perktest",
+			"callback" : "pda_perktest_callback",
+			"default_value" : true,
+		},
+		{
+			"type" : "toggle",
+			"id" : "pd_anticheat_modtest",
+			"title" : "pda_modtest_title",
+			"description" : "pda_modtest_desc",
+			"value" : "modtest",
+			"callback" : "pda_modtest_callback",
+			"default_value" : true,
+		},
+		{
+			"type" : "toggle",
+			"id" : "pd_anticheat_playerstat",
+			"title" : "pda_playerstat_title",
+			"description" : "pda_playerstat_desc",
+			"value" : "playerstat",
+			"callback" : "pda_playerstat_callback",
+			"default_value" : true,
+		},
+		
+		{
+			"type" : "toggle",
+			"id" : "pd_anticheat_overkilltest",
+			"title" : "pda_overkilltest_title",
+			"description" : "pda_overkilltest_desc",
+			"value" : "overkilltest",
+			"callback" : "pda_overkilltest_callback",
+			"default_value" : true,
+		},
+		{
+			"type" : "toggle",
+			"id" : "pd_anticheat_vactest",
+			"title" : "pda_vactest_title",
+			"description" : "pda_vactest_desc",
+			"value" : "vactest",
+			"callback" : "pda_vactest_callback",
+			"default_value" : true,
+		},
+		{
+			"type" : "toggle",
+			"id" : "pd_anticheat_acv",
+			"title" : "pda_acv_title",
+			"description" : "pda_acv_desc",
+			"value" : "acv",
+			"callback" : "pda_acv_callback",
+			"default_value" : true,
+		},
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "pd_anticheat_chat",
+			"title" : "pda_chat_title",
+			"description" : "pda_chat_desc",
+			"callback" : "pda_chat_callback",
+			"items" : [
+				"pda_chat_item_a",
+				"pda_chat_item_b",
+				"pda_chat_item_c"
+						],
+			"value" : "chat"
+		},
+		{
+			"type" : "multiple_choice",
+			"id" : "pd_anticheat_punish",
+			"title" : "pda_punish_title",
+			"description" : "pda_punish_desc",
+			"callback" : "pda_punish_callback",
+			"items" : [
+				"pda_punish_item_a",
+				"pda_punish_item_b",
+				"pda_punish_item_c",
+				"pda_punish_item_d",
+				"pda_punish_item_e"
+						],
+			"value" : "punish"
+		},
+		{
+			"type" : "toggle",
+			"id" : "pd_anticheat_kick",
+			"title" : "pda_kick_title",
+			"description" : "pda_kick_desc",
+			"value" : "kick",
+			"callback" : "pda_kick_callback",
+			"default_value" : false,
+		},
+		{
+			"type" : "keybind",
+			"id" : "pda_pause",
+			"title" : "pda_pause_title",
+			"run_in_game" : true,
+			"run_in_menu" : false,
+			"description" : "pda_pause_desc",
+			"keybind_id" : "pda_pause_id",
+			"func" : "pda_pause_callback",
+		}
+		
+	]
+}
+
+
