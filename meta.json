@@ -1,7 +1,7 @@
 [
     {
         "ident": "PD-Anticheat",
-        "hash": "b34ca0325c9308bf3744df5783171718ebff4be2e5c9ac36cc833f044036b113",
+        "hash": "bea11c579180b42319bc53e81f2f607f39a21aaec3fc2eff5f4e66389a16f846",
         "download_url": "https://github.com/soumaxetuirk/PD-AntiCheat/raw/master/PD-AntiCheat.zip",
         "patchnotes_url": "https://github.com/soumaxetuirk/PD-AntiCheat/raw/master/latest"
     }
